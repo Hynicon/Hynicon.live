@@ -7,7 +7,7 @@
     <title>Hynicon.live - Coming Soon</title>
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900" rel="stylesheet">
-
+<script type="text/javascript" src="https://cdn.viblast.com/vb/stable/viblast.js"></script>
     <style>
         html, body {
             height: 100%;
@@ -53,9 +53,8 @@
     </style>
 </head>
 <body>
-    <video autoplay loop playsinline id="video">
-        <source src="http://172.220.71.163/hls/obs.m3u8" type="application/x-mpegURL">
-    </video>
+    <video controls src="http://172.220.71.163/hls/obs.m3u8" data-viblast-key="cd5f1593-ebb0-493e-bbd7-0671b4532ae2" autoplay>
+</video>
 
     <iframe src="start.mp3" allow="autoplay" style="display:none"></iframe>
 
