@@ -1346,10 +1346,10 @@ video::-webkit-media-text-track-display {
   background: none; }
 
 .videocontent {
-  width: 50%;
+  /*width: 50%;
   height: 100vh;
+  padding: 30px;*/
   float: left;
-  padding: 30px;
 }
 
 .videocontent:after {
