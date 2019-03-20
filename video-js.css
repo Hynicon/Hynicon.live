@@ -1358,11 +1358,6 @@ video::-webkit-media-text-track-display {
 }
 
 .twitchchat {
-  width: 50%;
+  width: 20%;
   float: right;
-}
-
-.twitchchat1 {
-  width: 50%;
-  float: left;
 }
