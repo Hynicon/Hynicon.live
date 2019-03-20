@@ -1333,7 +1333,8 @@ video::-webkit-media-text-track-display {
   width: 100%;
   height: 100%;
   border: none;
-  z-index: -1000; }
+  z-index: -1000;
+  float: left; }
 
 .js-focus-visible .video-js *:focus:not(.focus-visible) {
   outline: none;
@@ -1345,7 +1346,7 @@ video::-webkit-media-text-track-display {
   background: none; }
 
 .videocontent {
-  width: 100%;
+  width: 80%;
   height: 100vh;
   float: left;
 }
