@@ -1357,7 +1357,7 @@ video::-webkit-media-text-track-display {
   clear: both;
 }
 
-#chat_embed {
+.twitchchat {
   width: 50%;
   float: right;
 }
