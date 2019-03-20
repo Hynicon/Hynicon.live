@@ -1349,16 +1349,20 @@ video::-webkit-media-text-track-display {
   width: 80%;
   height: 100vh;
   float: left;
+  padding: 30px;
+}
+
+.videocontent:after {
+  content: "";
+  clear: both;
 }
 
 .twitchchat {
   width: 50%;
-  height:100vh;
   float: right;
 }
 
 .twitchchat1 {
   width: 50%;
-  height:100vh;
-  float: right;
+  float: left;
 }
