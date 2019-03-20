@@ -249,7 +249,7 @@
     content: "\f120"; }
 
 .video-js {
-  display: block;
+  display: inline;
   box-sizing: border-box;
   color: #fff;
   background-color: #000;
